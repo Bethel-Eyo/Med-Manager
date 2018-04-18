@@ -35,16 +35,16 @@ public class AddMedicationPresenter implements AddMedicationContract.AddMedicati
             addMedicationView.onMedicationAddedError(Keys.UI.TIMES_PER_DAY_ERR_MSG, Keys.UI.TIMES_PER_DAY);
         } else if (!Utils.isDateValid(endDate)){
             addMedicationView.onMedicationAddedError(Keys.UI.START_DATE_ERR_MSG, Keys.UI.START_DATE);
-        } else {
-            Medication medication = new Medication(drugName, description, tabPerIntake, frequencyPerDay, startDate, endDate);
-            try {
-                medication.open(mContext);
-                medication.InsertMedicationData();
-                addMedicationView.onMedicationAdded(Keys.UI.MED_ADDED);
-                medication.close();
-            } catch (Exception e){
-                addMedicationView.onMedicationAddedError("Error adding", "Unknown");
-            }
+        }
+
+        Medication medication = new Medication(drugName, description, tabPerIntake, frequencyPerDay, startDate, endDate);
+        try {
+            medication.open(mContext);
+            medication.InsertMedicationData();
+            addMedicationView.onMedicationAdded(Keys.UI.MED_ADDED);
+            medication.close();
+        } catch (Exception e){
+            addMedicationView.onMedicationAddedError("Error adding", "Unknown");
         }
     }
 }
