@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins per Android design guidelines-->
+    <dimen name="inner_radius">40dp</dimen>
+    <dimen name="title_padding">12dp</dimen>
+    <dimen name="outer_radius">160dp</dimen>
+    <dimen name="title_size">8pt</dimen>
+
+</resources>

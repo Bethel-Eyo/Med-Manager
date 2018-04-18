@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/pref_month_value_all"
+        android:entries="@array/pref_month_option_labels"
+        android:entryValues="@array/pref_month_option_values"
+        android:key="@string/pref_month_key"
+        android:title="@string/pref_month_label"/>
+</PreferenceScreen>

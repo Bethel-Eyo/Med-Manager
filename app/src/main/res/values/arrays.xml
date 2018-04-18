@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/ic_account_box_white_48pt</item>
+        <item>@drawable/ic_add_to_queue_white_24dp</item>
+        <item>@drawable/ic_pageview_white_24dp</item>
+        <item>@drawable/ic_store_white_48pt</item>
+        <item>@drawable/ic_exit_to_app_white_24dp</item>
+    </array>
+
+    <array name="colors">
+        <item>@color/colorPrimary</item>
+        <item>@color/primary_light</item>
+        <item>@color/secondary_text</item>
+        <item>@color/divider</item>
+        <item>@color/colorPrimaryDark</item>
+    </array>
+
+    <array name="titles">
+        <item>Profile</item>
+        <item>Add Meds</item>
+        <item>Search</item>
+        <item>View Meds</item>
+        <item>Log out</item>
+    </array>
+
+    <!-- month labels -->
+    <array name="pref_month_option_labels">
+        <item>@string/pref_month_label_jan</item>
+        <item>@string/pref_month_label_feb</item>
+        <item>@string/pref_month_label_mar</item>
+        <item>@string/pref_month_label_apr</item>
+        <item>@string/pref_month_label_may</item>
+        <item>@string/pref_month_label_jun</item>
+        <item>@string/pref_month_label_jul</item>
+        <item>@string/pref_month_label_aug</item>
+        <item>@string/pref_month_label_sep</item>
+        <item>@string/pref_month_label_oct</item>
+        <item>@string/pref_month_label_nov</item>
+        <item>@string/pref_month_label_dec</item>
+    </array>
+
+    <!-- month values -->
+    <array name="pref_month_option_values">
+        <item>@string/pref_month_value_jan</item>
+        <item>@string/pref_month_value_feb</item>
+        <item>@string/pref_month_value_mar</item>
+        <item>@string/pref_month_value_apr</item>
+        <item>@string/pref_month_value_may</item>
+        <item>@string/pref_month_value_jun</item>
+        <item>@string/pref_month_value_jul</item>
+        <item>@string/pref_month_value_aug</item>
+        <item>@string/pref_month_value_sep</item>
+        <item>@string/pref_month_value_oct</item>
+        <item>@string/pref_month_value_nov</item>
+        <item>@string/pref_month_value_dec</item>
+    </array>
+</resources>

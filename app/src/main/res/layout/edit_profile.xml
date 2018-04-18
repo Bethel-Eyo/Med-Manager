@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/secondary_text">
+
+        <ImageView
+            android:id="@+id/profile_img_view"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/divider"
+            android:src="@drawable/ic_add_a_photo_black_48dp"/>
+
+        <Button
+            android:id="@+id/choose_img_btn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_image_white_24dp"
+            android:paddingLeft="20dp"
+            android:text="Choose Image"
+            android:textColor="@color/icons"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_tip"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/icons"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/first_name_edTxt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="First name"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/icons"
+            android:alpha="0.7"/>
+
+        <EditText
+            android:id="@+id/last_name_edTxt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Last name"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/icons"
+            android:alpha="0.7"/>
+
+        <EditText
+            android:id="@+id/phone_num_edTxt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/icons"
+            android:alpha="0.7"/>
+
+        <Button
+            android:id="@+id/update_profile_btn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_account_circle_white_24dp"
+            android:paddingLeft="20dp"
+            android:text="Update profile"
+            android:textColor="@color/icons"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>
